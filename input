@@ -1,0 +1,11 @@
+4site	relative/path/input.php	/^$4site = 'not yet';     \/\/ invalid; starts with a number$/;"	v
+CONSTANT	relative/path/input.php	/^define("CONSTANT", "Hello world.");$/;"	d
+Cart	relative/path/input.php	/^class Cart$/;"	c
+Var	relative/path/input.php	/^$Var = "Joe";$/;"	v
+_4site	relative/path/input.php	/^$_4site = 'not yet';    \/\/ valid; starts with an underscore$/;"	v
+add_item	relative/path/input.php	/^    function add_item ($artnr, $num)$/;"	f	class:Cart
+foo	relative/path/input.php	/^function foo ($arg_1, $arg_2, ..., $arg_n)$/;"	f
+items	relative/path/input.php	/^    var $items;  \/\/ Items in our shopping cart$/;"	v	class:Cart
+remove_item	relative/path/input.php	/^    function remove_item ($artnr, $num)$/;"	f	class:Cart
+täyte	relative/path/input.php	/^$täyte = 'mansikka';    \/\/ valid; 'ä' is ASCII 228.$/;"	v
+var	relative/path/input.php	/^$var = "Bob";$/;"	v
