@@ -8,4 +8,5 @@ compiler:
   - gcc
 
 script:
+  - env
   - LANG=C ./check
