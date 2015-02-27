@@ -12,4 +12,4 @@ script:
   - sed --version
   - uname -a
   - lsb_release -a
-  - LANG=C ./check
+  - LC_ALL=C LC_CTYPE=C LANG=C ./check
