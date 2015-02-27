@@ -8,4 +8,4 @@ compiler:
   - gcc
 
 script:
-  - ./check
+  - LANG=C ./check
