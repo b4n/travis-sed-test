@@ -8,8 +8,4 @@ compiler:
   - gcc
 
 script:
-  - env
-  - sed --version
-  - uname -a
-  - lsb_release -a
-  - LC_ALL=C LC_CTYPE=C LANG=C ./check
+  - ./check

@@ -1,4 +1,6 @@
 #!/bin/sh
 
+export LC_ALL=C
+
 sed 's%\(^[^	]\{1,\}	\)\([^/	]\{1,\}/\)*%\1%' < input > output
 diff -u expected output
