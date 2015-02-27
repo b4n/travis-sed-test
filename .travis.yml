@@ -9,4 +9,7 @@ compiler:
 
 script:
   - env
+  - sed --version
+  - uname -a
+  - lsb_release -a
   - LANG=C ./check
